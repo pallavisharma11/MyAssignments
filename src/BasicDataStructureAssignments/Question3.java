@@ -23,6 +23,6 @@ public class Question3 {
         System.out.println("Enter interestRate");
         double interestRate = sc.nextDouble();
         double simpleinterest = object.simpleInterest(principalAmount,time,interestRate);
-
+        double compoundinterest = object.compoundInterest(principalAmount,time,interestRate);
     }
 }
