@@ -24,5 +24,7 @@ public class Question3 {
         double interestRate = sc.nextDouble();
         double simpleinterest = object.simpleInterest(principalAmount,time,interestRate);
         double compoundinterest = object.compoundInterest(principalAmount,time,interestRate);
+        System.out.println("Simple Interest "+simpleinterest);
+        System.out.println("Compound Interest "+compoundinterest);
     }
 }
