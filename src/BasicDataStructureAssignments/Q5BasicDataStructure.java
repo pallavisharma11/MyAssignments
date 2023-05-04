@@ -8,7 +8,9 @@ class TaxAmount{
         if(ctc >=0 && ctc <=180000){
             taxAmmount = ctc;
         }
-        else if (ctc <= 181001 && ctc >=300000)
+        else if (ctc <= 181001 && ctc >=300000){
+            taxAmmount = (ctc*10)/100;
+        }
         return  8.8;
     }
 
