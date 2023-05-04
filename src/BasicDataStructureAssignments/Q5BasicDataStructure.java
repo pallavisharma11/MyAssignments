@@ -8,6 +8,7 @@ class TaxAmount{
         if(ctc >=0 && ctc <=180000){
             taxAmmount = ctc;
         }
+        else if (ctc <= 181001 && ctc >=300000)
         return  8.8;
     }
 
