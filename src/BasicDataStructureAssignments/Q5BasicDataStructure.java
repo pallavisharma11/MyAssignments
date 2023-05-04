@@ -3,9 +3,14 @@ package BasicDataStructureAssignments;
 import java.util.Scanner;
 
 class TaxAmount{
+    double taxAmmount;
     public double calculateTaxAmount(int ctc){
-
+        if(ctc >=0 && ctc <=180000){
+            taxAmmount = ctc;
+        }
+        return  8.8;
     }
+
 }
 public class Q5BasicDataStructure {
     public static void main(String[] args) {
