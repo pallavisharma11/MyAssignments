@@ -12,9 +12,9 @@ class TaxAmount{
             taxAmmount = (ctc*10)/100;
         }
         else if(ctc <= 300001 && ctc >=500000){
-
+                taxAmmount = (ctc*20)/100;
         }
-        return  8.8;
+        return  taxAmmount;
     }
 
 }
