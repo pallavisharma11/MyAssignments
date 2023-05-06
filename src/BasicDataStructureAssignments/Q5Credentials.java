@@ -6,6 +6,6 @@ class Login{
 }
 public class Q5Credentials {
     public static void main(String[] args) {
-
+        System.out.println("Enter User Name");
     }
 }
