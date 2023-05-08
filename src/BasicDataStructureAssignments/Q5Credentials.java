@@ -13,6 +13,6 @@ public class Q5Credentials {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter User Name");
         String user = sc.next();
-        System.out.println("");
+//        System.out.println("");
     }
 }
