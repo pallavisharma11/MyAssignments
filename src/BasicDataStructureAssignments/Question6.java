@@ -2,7 +2,7 @@ package BasicDataStructureAssignments;
 
 import java.util.Scanner;
 
-class Login{
+class Login1{
     String userId = "Ajay",password = "password";
     public String loginUser(String user, String pass) {
         if(user.equals(userId) && pass.equals(password)){
@@ -21,7 +21,7 @@ public class Question6
 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Login object = new Login();
+        Login1 object = new Login1();
         int count =3;
         while(count!=3){
             System.out.println("Enter UserId");
