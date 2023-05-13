@@ -58,7 +58,7 @@ public class Question9 {
         int s3A = sc.nextInt();
         int s3B= sc.nextInt();
         int s3C = sc.nextInt();
-        students[3] = new Student(s3A,s3B,s3C);
+
 
 
 
