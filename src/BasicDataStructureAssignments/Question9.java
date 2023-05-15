@@ -57,7 +57,7 @@ public class Question9 {
         System.out.println("marks of Student 3 in subjects A,B,C");
         int s3A = sc.nextInt();
         int s3B= sc.nextInt();
-
+        System.out.println();
 
 
 
