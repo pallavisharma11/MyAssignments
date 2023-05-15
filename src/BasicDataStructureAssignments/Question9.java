@@ -58,6 +58,7 @@ public class Question9 {
         int s3A = sc.nextInt();
         int s3B= sc.nextInt();
         System.out.println();
+        System.out.println();
 
 
 
