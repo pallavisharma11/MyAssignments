@@ -17,6 +17,6 @@ public class Question1 {
     Contact c1 = new Contact("Pallavi","pallavi@gmail.com","Female");
     Contact c2 = new Contact("Parth","parth@gmail.com","Male");
     Contact c3 = new Contact("Kashish","kashish@gmail.com","Female");
-    map.put(123456789,c1);
+
 
 }
