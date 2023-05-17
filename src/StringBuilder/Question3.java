@@ -6,5 +6,6 @@ public class Question3 {
         StringBuffer sbf = new StringBuffer("This methods returns the reversed the object on which it is called");
         sbf.reverse();
         System.out.println("String buffer after reversing = " + sbf);
+        System.out.println();
     }
 }
