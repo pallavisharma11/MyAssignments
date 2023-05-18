@@ -84,6 +84,8 @@ public class Question3 {
 
             }
                 break;
+
+            case 'c':
         }
 
     }
