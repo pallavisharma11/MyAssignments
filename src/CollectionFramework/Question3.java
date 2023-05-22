@@ -3,7 +3,7 @@
 //import java.util.Comparator;
 //import  java.util.TreeSet;
 //import java.util.Scanner;
-//class Employee implements Comparable<Employee>{
+//class Employee{
 //    private int id;
 //    private String name;
 //    private String department;
@@ -14,10 +14,7 @@
 //        this.name=name;
 //        this.department=department;
 //        this.salary = salary;
-//        public int compareTo(Employee e)
-//        {
-//            return this.id - e.year;
-//        }
+//
 //    }
 //    public int getId() {
 //        return id;
@@ -44,8 +41,29 @@
 //    public void setSalary(int salary) {
 //        this.salary = salary;
 //    }
-//    abstract compareTo()
-//
+//    public String toString(){
+//        return id+" "+name+" "+department+" "+salary;
+//    }
+//}
+//class sortById implements Comparator<Employee>{
+//    public int compare(Employee c1, Employee c2) {
+//        return c2.getId()-(c1.getId());
+//    }
+//}
+//class sortByName implements Comparator<Employee>{
+//    public int compare(Employee c1, Employee c2) {
+//        return c2.getName().compareTo(c1.getName());
+//    }
+//}
+//class sortByDeaprtment implements Comparator<Employee>{
+//    public int compare(Employee c1, Employee c2) {
+//        return c2.getDepartment().compareTo(c1.getDepartment());
+//    }
+//}
+//class sortBySalary implements Comparator<Employee>{
+//    public double compare(Employee c1, Employee c2) {
+//        return (double)c2.getSalary()-c1.getSalary());
+//    }
 //}
 //public class Question3 {
 //    public static void main(String[] args) {
@@ -75,7 +93,7 @@
 //
 //                    @Override
 //                    public int compare(Employee e1, Employee e2) {
-////                        return e1.getId().compareTo(e2.getId());
+//                        return e1.getId().compareTo(e2.getId());
 //                        return 1;
 //                    }
 //
